@@ -5,6 +5,10 @@ nav  li {
     margin-right: 40px;
 }
 
+nav .active {
+    text-decoration: underline;
+}
+
 /* footer styles */
 
 footer li {
