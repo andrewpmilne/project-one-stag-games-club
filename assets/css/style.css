@@ -1,5 +1,21 @@
 
 
+/* footer styles */
+
+footer li {
+    list-style: none;
+}
+
+footer i {
+    width: 30px;
+    height: 30px;
+    font-size: 21px;
+    color: white
+}
+
+footer img {
+    margin: 7px;
+}
 /* temp css for prototype */
 
 p {

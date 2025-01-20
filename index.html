@@ -29,16 +29,12 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"
-          ><img
-            src="assets/images/logo-x-small.png"
-            alt="STAG logo"
-            class="logo"
-        /></a>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo-x-small.png" alt="STAG logo" class="logo"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -78,11 +74,34 @@
       </div>
     </div>
 
-    <footer class="mt-auto">
+
+  <footer class="mt-auto d-flex flex-row">
+    <div class="container section"> 
+      <a href="index.html" ><img src="assets/images/logo-x-small.png" alt="STAG logo" class="logo"/></a>
+    </div>
+      <ul class="container d-flex flex-row justify-content-evenly">
+        <li class="m-2"><a href="https://www.facebook.com" target="_blank"
+          aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+              class="fa-brands fa-square-facebook"></i></a>  </li>
+        <li class="m-2"> <a href="https://www.instagram.com" target="_blank"
+          aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+              class="fa-brands fa-instagram"></i></a> </li>
+        <li class="m-2"><a href="https://www.tiktok.com" target="_blank" aria-label="Visit our Tik Tok page (opens in a new tab)" rel="noopener">
+          <i class="fa-brands fa-tiktok"> </i> </a> </li>
+        <li class="m-2"><a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+          rel="noopener"><i class="fa-brands fa-x-twitter"></i></a> </li>
+      </ul>
+    
+
+
+  </footer>
+    <!-- <footer class="mt-auto d-flex flex-row">
       <div class="container section">
-          <div class="row">
-              <a class="navbar-brand mt-1" href="index.html" ><img src="assets/images/logo-x-small.png" alt="STAG logo" class="logo"/></a>
-                  <div class="social-links my-4 ms-auto">
+          <div class="row flex-row">
+              <div class="col-3 m-auto p-1">
+              <a href="index.html" ><img src="assets/images/logo-x-small.png" alt="STAG logo" class="logo"/></a>
+              </div>
+              <div class="social-links col-9 ms-auto"> 
                     <a href="https://www.facebook.com" target="_blank"
                     aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
                         class="fa-brands fa-square-facebook"></i></a> 
@@ -93,11 +112,13 @@
                       <i class="fa-brands fa-tiktok"> </i> </a>
                     <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
                           rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                        
                   </div>
-              </div>
+          </div>
 
               
-  </footer>
+  </footer> -->
+
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
     <!-- bootstrap javascript code-->
