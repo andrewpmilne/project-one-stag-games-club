@@ -14,6 +14,16 @@ nav .active {
     text-decoration: underline;
 }
 
+main {
+    margin-top: 61px;
+    margin-bottom: 63px
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
 /* footer styles */
 
 footer li {
