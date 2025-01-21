@@ -9,6 +9,11 @@ nav .active {
     text-decoration: underline;
 }
 
+/* body styles */
+.heading {
+    text-decoration: underline;
+}
+
 /* footer styles */
 
 footer li {
@@ -33,6 +38,9 @@ p {
 
 footer {
     background-color: blue;
+}
+.row {
+    background-color: blueviolet;
 }
 
 main div {
