@@ -79,8 +79,7 @@ footer img {
     #hero-container .btn {
         position: absolute;
         top: 85%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 40%;
       }
 }
 
@@ -92,6 +91,9 @@ p {
 
 footer {
     background-color: blue;
+}
+.container {
+    background-color: orange;
 }
 .row {
     background-color: blueviolet;
