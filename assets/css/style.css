@@ -69,11 +69,21 @@ footer img {
 /* media query laptop and larger */
 
 @media screen and (min-width:1200px) {
-    #action-a {
-        position: absolute;
-        margin-top: 30%;
+    #hero-container {
+        position: relative;
     }
+    #hero-container img {
+        width:100%;
+        height: auto;
+    }
+    #hero-container .btn {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
 }
+
 /* temp css for prototype */
 
 p {
