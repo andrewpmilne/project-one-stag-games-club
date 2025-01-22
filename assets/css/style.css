@@ -9,19 +9,30 @@ nav .active {
     text-decoration: underline;
 }
 
-#action-button {
-    background-color: blue;
-    border: solid;
-    color: white;
-    padding: 15px 32px;
+
+
+/* body styles */
+
+#action-a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
-    width: 20%;
+    
   }
+#action-button {
+    background-color: blue;
+    border: solid 2px;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 20%;
+    min-width: 130px;
+  }
+}
 
-/* body styles */
 .heading {
     text-decoration: underline;
 }
@@ -52,6 +63,17 @@ footer i {
 footer img {
     margin: 7px;
 }
+
+/* media queries */
+
+/* media query laptop and larger */
+
+@media screen and (min-width:1200px) {
+    #action-a {
+        position: absolute;
+        margin-top: 30%;
+    }
+}
 /* temp css for prototype */
 
 p {
@@ -74,3 +96,4 @@ main div {
 main .container {
     background-color: blueviolet;
 }
+
