@@ -48,7 +48,7 @@ img {
 }
 
 /* testimonials section */
-#test-img {
+.test-images {
     border-radius: 50%;
     
 }
@@ -109,7 +109,17 @@ footer img {
         width: 100%;
         
     }
+    #test-img {
+        margin-top: 50%;
+    }
+    .head-shot {
+        height: 75%;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
 
 /* temp css for prototype */
 
