@@ -66,7 +66,7 @@ footer img {
 
 /* media queries */
 
-/* media query laptop and larger */
+/* media query xl and larger */
 
 @media screen and (min-width:1200px) {
     #hero-container {
@@ -81,6 +81,33 @@ footer img {
         top: 85%;
         left: 40%;
       }
+    
+    /* testimonials */
+    #testimonials {
+        display: flex;
+        flex-direction: row;
+    }
+    #test-row-two {
+        width: 40%;
+        order: 1;
+    }
+    #test-row-one {
+        width: 20%;
+        order: 2;
+    }
+    #test-row-three {
+        width: 40%;
+        order: 3;
+    }
+    #testimonials .col {
+        width: 100%;
+        
+    }
+}
+
+/* media query l and larger */
+@media screen and (min-width:992px) {
+    
 }
 
 /* temp css for prototype */
