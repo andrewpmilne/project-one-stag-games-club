@@ -12,6 +12,7 @@ nav .active {
 
 
 /* body styles */
+/* Hero section */
 
 #action-a {
     text-align: center;
@@ -89,8 +90,9 @@ footer img {
     }
     #hero-container .btn {
         position: absolute;
-        top: 85%;
+        top: 65%;
         left: 40%;
+        font-size: 20px;
       }
     
     /* testimonials */
