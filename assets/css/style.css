@@ -48,6 +48,15 @@ img {
     height:auto;
 }
 
+/* events section */
+.card {
+    align-items: center;
+}
+.card-img-top {
+width: 60%
+}
+
+
 /* testimonials section */
 .test-images {
     border-radius: 50%;
@@ -57,6 +66,11 @@ img {
 /* goty page */
 #carouselExample {
     margin: auto;
+}
+
+/* contact us page */
+#contact-form {
+    background-color: rgba(239,239,240,0.3);
 }
 
 /* footer styles */
@@ -141,7 +155,7 @@ footer {
     background-color: orange;
 }
 .row {
-    background-color: blueviolet;
+    backgrond-color: blueviolet;
 }
 
 main div {
