@@ -48,6 +48,12 @@ img {
     height:auto;
 }
 
+/* venue section */
+#map {
+    width: 100%;
+    height: auto;
+}
+
 /* events section */
 .card {
     align-items: center;
@@ -117,6 +123,11 @@ footer img {
         left: 40%;
         font-size: 20px;
       }
+
+    /* venue sections */
+    #map {
+        height: 60%;
+    }
     
     /* testimonials */
     #testimonials {
