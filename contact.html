@@ -67,14 +67,38 @@
     <section class="container">
         <div class="row" id="form">
           <img src="assets/images/hall-wide-shot.JPG" alt="People playing games in Ightam Hall on a STAG night">
-          <form id="contact-form" class="d-flex flex-row" method="post" action="https://formdump.codeinstitute.net"> 
-          <div class="col-6">
+          <form id="contact-form" class="d-flex flex-row flex-wrap" method="post" action="https://formdump.codeinstitute.net"> 
+          <div class=" col col-6">
             <label for="first-name"> First Name: </label>
             <input type="text" name="first_name" id="first-name" required>
           </div>
-          <div class="col-6"> 
-          <label for="last-name"> Last Name: </label>
-          <input type="text" name="last_name" id="last-name" required>
+          <div class="col col-6"> 
+            <label for="last-name"> Last Name: </label>
+            <input type="text" name="last_name" id="last-name" required>
+          </div>
+          <div class="col col-12">
+            <label for="email-address" id="email-label"> Email Address: </label>
+            <input type="email" name="email_address" id="email-address" required>
+          </div>
+          
+          <div class="col col-12 d-flex flex-column">
+            <h6> Interested in:</h6>
+            <div> 
+              <input type="checkbox" id="wednesday" name="interst" value="wednesday"> 
+              <label for="wednesday"> Wednesday night games </label>
+            </div>
+            <div> 
+              <input type="checkbox" id="xl-games" name="interst" value="xl"> 
+              <label for="xl-games"> XL (all day) Saturday games </label>
+            </div>
+            <div> 
+              <input type="checkbox" id="fawns" name="interst" value="fawns"> 
+              <label for="fawns"> FAWNS family games afternoons </label>
+            </div>
+            <div> 
+              <input type="checkbox" id="christmas" name="interst" value="christmas"> 
+              <label for="christmas"> Christmas gaming </label>
+            </div>
           </div>
           </form>
         </div>
