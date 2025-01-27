@@ -165,6 +165,10 @@ footer img {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
 }
