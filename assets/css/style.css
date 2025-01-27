@@ -77,6 +77,10 @@ width: 60%
     padding-top: 25px;
 }
 
+#questions-label {
+    padding-top: 25px;
+}
+
 /* footer styles */
 
 footer li {
@@ -143,10 +147,14 @@ footer img {
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* contact us */
+
+    
 }
 
 
-/* temp css for prototype */
+/* temp css for prototype 
 
 p {
     color:red;
