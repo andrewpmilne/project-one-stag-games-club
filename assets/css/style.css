@@ -31,8 +31,8 @@ nav .active {
     text-decoration: underline;
 }
 
-nav {
-    background-color: red;
+.navbar {
+    background-color: #ffe4c4 !important;
 }
 
 
@@ -47,9 +47,9 @@ nav {
     
   }
 #action-button {
-    background-color: blue;
+    background-color: #ffe4c4;
     border: solid 2px;
-    color: white;
+    color: black;
     padding: 2px 2px;
     text-align: center;
     text-decoration: none;
@@ -126,7 +126,7 @@ form button {
 /* footer styles */
 
 footer{
-    background-color: grey;
+    background-color: #ffe4c4
 }
 footer li {
     list-style: none;
