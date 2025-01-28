@@ -1,3 +1,19 @@
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+p, button, a {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Averia Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 /* navbar styles */
 nav  li {
@@ -90,6 +106,9 @@ width: 60%
 
 /* footer styles */
 
+footer{
+    background-color: red;
+}
 footer li {
     list-style: none;
 }
@@ -184,11 +203,13 @@ footer img {
 
 }
 
+/* temp css for prototype 
+
 footer {
     background-color: grey;
 }
 
-/* temp css for prototype 
+
 
 p {
     color:red;
