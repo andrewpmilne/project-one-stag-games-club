@@ -7,12 +7,18 @@ p, button, a {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
+    color:  #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Averia Libre", serif;
     font-weight: 700;
     font-style: normal;
+    color: bisque;
+}
+
+body {
+    background-color: #16254c;
 }
 
 /* navbar styles */
@@ -23,6 +29,10 @@ nav  li {
 
 nav .active {
     text-decoration: underline;
+}
+
+nav {
+    background-color: red;
 }
 
 
@@ -104,10 +114,19 @@ width: 60%
     padding-top: 25px;
 }
 
+#contact-form p, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+form button {
+    color: black;
+}
+
+
 /* footer styles */
 
 footer{
-    background-color: red;
+    background-color: grey;
 }
 footer li {
     list-style: none;
@@ -117,7 +136,6 @@ footer i {
     width: 30px;
     height: 30px;
     font-size: 21px;
-    color: white
 }
 
 footer img {
