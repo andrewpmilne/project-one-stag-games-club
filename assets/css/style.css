@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, h6 {
     color: bisque !important; 
 }
 
+
+
 body {
     background-color: #16254c;
 }
@@ -86,6 +88,10 @@ img {
     height:auto;
 }
 
+#intro {
+    font-size: larger;
+}
+
 /* venue section */
 #map {
     width: 100%;
@@ -130,7 +136,11 @@ width: 60%
     padding-top: 25px;
 }
 
-#contact-form p, h2, h3, h4, h5, h6 {
+#contact-form > p {
+    color: black !important;
+}
+
+.form-heading {
     color: black !important;
 }
 
