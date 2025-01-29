@@ -100,6 +100,10 @@ img {
 width: 60%
 }
 
+#wednesday-card {
+    width: 18rem;
+}
+
 
 /* testimonials section */
 .test-images {
@@ -156,6 +160,15 @@ footer img {
 
 /* media queries */
 
+/* media query l and larger */
+
+@media screen and (min-width:993px){
+    /* events section */
+    #wednesday-card {
+        width: 40rem;
+    }
+}
+
 /* media query xl and larger */
 
 @media screen and (min-width:1200px) {
@@ -178,6 +191,7 @@ footer img {
         height: 60%;
     }
     
+
     /* testimonials */
     #testimonials {
         display: flex;
