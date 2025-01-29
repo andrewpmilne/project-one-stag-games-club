@@ -21,6 +21,16 @@ body {
     background-color: #16254c;
 }
 
+.card, .card-body, .list-group-item {
+    background-color: bisque;
+}
+
+.card-title, .card-text, .list-group-item > p {
+    color: black !important;
+}
+.event-link {
+    color: blue;
+}
 
 
 /* navbar styles */
