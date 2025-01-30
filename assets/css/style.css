@@ -264,7 +264,7 @@ footer img {
         background-color: bisque;
         }    
     
-    #contact-form, h2, h6 {
+    #contact-form h2, h6 {
         color: black !important;
     }
 }
