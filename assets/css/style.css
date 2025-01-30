@@ -87,15 +87,14 @@ img {
     max-width: 100%;
     height:auto;
 }
-
 #intro {
     font-size: larger;
 }
 
 /* venue section */
 #map {
-    width: 100%;
-    height: auto;
+        width: 100%;
+        height: auto;
 }
 
 
@@ -110,6 +109,7 @@ width: 60%
 #wednesday-card {
     width: 18rem;
 }
+
 
 
 /* testimonials section */
@@ -178,6 +178,21 @@ footer img {
     #wednesday-card {
         width: 40rem;
     }
+
+    /* .card-body p {
+        margin-bottom:   
+      }
+      
+    .card-body .list-group {
+        margin-top:   
+      }
+    */
+    
+    .card-img-top {
+        max-height: 172px;
+    }
+
+    
 }
 
 /* media query xl and larger */
