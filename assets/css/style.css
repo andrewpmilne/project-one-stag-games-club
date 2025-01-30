@@ -179,14 +179,9 @@ footer img {
         width: 40rem;
     }
 
-    /* .card-body p {
-        margin-bottom:   
-      }
-      
-    .card-body .list-group {
-        margin-top:   
-      }
-    */
+    #events-row > .card-body {
+        min-height: 792px;
+    }
     
     .card-img-top {
         max-height: 172px;
