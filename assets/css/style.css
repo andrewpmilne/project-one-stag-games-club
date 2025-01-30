@@ -99,9 +99,11 @@ img {
 
 
 /* events section */
+
 .card {
     align-items: center;
 }
+
 .card-img-top {
 width: 60%
 }
@@ -179,14 +181,14 @@ footer img {
         width: 40rem;
     }
 
-    #events-row > .card-body {
+    #events  .card {
         min-height: 792px;
     }
     
     .card-img-top {
         max-height: 172px;
     }
-
+*/
     
 }
 
