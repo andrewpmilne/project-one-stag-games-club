@@ -158,6 +158,19 @@ form button {
     color: black;
 }
 
+/* gallery */
+#gallery-section img {
+    width: 50%;
+    height: auto;
+    border: 4px solid;
+    border-color: #ffe4c4;
+    box-shadow: 10px 10px rgb(64, 87, 95);
+}
+
+#gallery-section img:hover {
+    width: 80%;
+}
+
 
 /* footer styles */
 
