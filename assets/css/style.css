@@ -201,6 +201,9 @@ footer img {
     #wednesday-card {
         width: 40rem;
     }
+    #wednesday-card img {
+        max-width: 36%;
+    }
 
     #events  .card {
         min-height: 792px;
@@ -301,36 +304,3 @@ footer img {
         color: black !important;
     }
 }
-
-/* temp css for prototype 
-
-footer {
-    background-color: grey;
-}
-
-
-
-p {
-    color:red;
-}
-
-footer {
-    background-color: blue;
-}
-.container {
-    background-color: orange;
-}
-.row {
-    backgrond-color: blueviolet;
-}
-
-main div {
-    background-color: aqua;
-    border-style: solid;
-    border-width: 2px;
-}
-
-main .container {
-    background-color: rgb(226, 43, 43);
-}
-
