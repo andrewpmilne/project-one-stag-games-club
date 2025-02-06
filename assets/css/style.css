@@ -25,12 +25,24 @@ body {
     background-color: bisque;
 }
 
-.card-title, .card-text, .list-group-item > p {
+.card-title, .card-text, .list-group-item {
     color: black !important;
 }
+
+.card p {
+    color: black !important;
+}
+
 .event-link {
     color: blue;
 }
+
+.card {
+    width: 18rem;
+}
+
+
+
 
 
 /* navbar styles */
@@ -58,7 +70,7 @@ nav .active {
     display: inline-block;
     
   }
-
+  
 
 
 #action-button {
@@ -113,9 +125,7 @@ img {
 width: 60%
 }
 
-#wednesday-card {
-    width: 18rem;
-}
+
 
 
 
@@ -192,12 +202,22 @@ footer img {
 
 /* media queries */
 
+
 /* media query l and larger */
 
 @media screen and (min-width:993px){
+    /* Cards general */
+    .card {
+        width: 18rem;
+    }    
+
+    #testimonials .card {
+        width:20rem;
+    }
+    
     /* events section */
     #wednesday-card {
-        width: 40rem;
+        width: 40rem !important;
     }
     #wednesday-card img {
         max-width: 36%;
@@ -209,8 +229,10 @@ footer img {
     
     .card-img-top {
         max-height: 172px;
-    }    
+    }
+    
 }
+    
 
 /* media query xl and larger */
 
@@ -234,38 +256,28 @@ footer img {
         height: 60%;
     }
     
-
     /* testimonials */
-    #testimonials {
-        display: flex;
-        flex-direction: row;
+    #testimonials .card {
+        width:12rem;
     }
-    #test-row-two {
-        width: 43%;
-        order: 1;
-    }
-    #test-row-one {
-        width: 22%;
-        order: 2;
-    }
-    #test-row-three {
-        width: 43%;
-        order: 3;
-    }
-    #testimonials .col {
-        width: 100%;
-        
-    }
+
     #test-img {
-        margin-top: 50%;
+        order:3
     }
-    .head-shot {
-        height: auto;
-        width: auto;
-        margin-left: auto;
-        margin-right: auto;
-        max-height: 200px;
+    #test-one{
+        order:1
     }
+    #test-two {
+        order:2
+    }
+    #test-three{
+        order:4
+    }
+    #test-four{
+        order:5
+    }
+
+    
 
     /* contact us */
 
@@ -288,7 +300,6 @@ footer img {
         padding-top: 5px;
         padding-bottom: 5px;
     }
-
 }
 
 @media screen and (max-width:1200px) {
