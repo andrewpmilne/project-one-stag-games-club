@@ -142,7 +142,7 @@ width: 60%
 
 /* contact us page */
 #contact-form {
-    background-color: rgba(239,239,240,0.9);
+    background-color: rgba(201, 203, 202, 0.9);
     padding: 20px
 }
 
@@ -166,6 +166,13 @@ form button {
     color: black;
 }
 
+.form-control {
+    border: 3px solid black;
+}
+
+.check {
+    font-size: larger;
+}
 /* gallery */
 #gallery-section img {
     width: 50%;
