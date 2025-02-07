@@ -42,8 +42,12 @@ body {
 }
 
 main a {
-    text-decoration: underline;
-    color: red;
+        color: red;
+        text-decoration: none;
+}
+
+main a:hover {
+    text-decoration:underline;
 }
 
 
@@ -56,7 +60,7 @@ nav  li {
     margin-right: 40px;
 }
 
-nav .active {
+nav .active-a {
     text-decoration: underline;
 }
 
@@ -64,35 +68,41 @@ nav .active {
     background-color: bisque !important;
 }
 
+.nav-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
 
 
 /* body styles */
 /* Hero section */
 
-#action-a {
+#action-button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    
   }
   
-
-
 #action-button {
     background-color: #ffe4c4;
     border: solid 2px;
     color: black;
     padding: 2px 2px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 14px;
     width: 20%;
     min-width: 130px;
+    color: red;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   #action-button:hover {
-    text-decoration: underline;
+        text-decoration: underline;
 }
 
 
@@ -131,8 +141,12 @@ width: 60%
 }
 
 .event-link {
+        color: red;
+        text-decoration: none;
+}
+
+.event-link:hover {
     text-decoration: underline;
-    color: red;
 }
 
 
