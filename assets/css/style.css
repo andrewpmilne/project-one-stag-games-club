@@ -93,8 +93,8 @@ nav .active-a {
     padding: 2px 2px;
     text-align: center;
     display: inline-block;
-    font-size: 14px;
-    width: 20%;
+    font-size: 20px;
+    width: 33%;
     min-width: 130px;
     color: red;
     margin-left:auto;
@@ -284,8 +284,9 @@ footer img {
     #hero-container .btn {
         position: absolute;
         top: 65%;
-        left: 40%;
-        font-size: 20px;
+        left: 45%;
+        font-size: 24px;
+        width: 17%;
       }
 
     /* venue sections */
