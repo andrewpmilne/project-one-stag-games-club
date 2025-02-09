@@ -222,20 +222,25 @@ form button {
 footer{
     background-color: bisque
 }
+
 footer li {
-    list-style: none;
+    list-style: none;   
 }
 
 footer i {
-    width: 30px;
-    height: 30px;
-    font-size: 21px;
+    font-size: 29px;
     color: #16254c;
+    }
+
+footer i:hover {
+    color: red;
 }
+    
 
 footer img {
     margin: 7px;
 }
+
 
 /* media queries */
 
