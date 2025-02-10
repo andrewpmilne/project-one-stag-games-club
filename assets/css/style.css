@@ -42,12 +42,11 @@ body {
 }
 
 main a {
-        color: red;
-        text-decoration: none;
+        text-decoration: underline;
 }
 
 main a:hover {
-    text-decoration:underline;
+    color:red;
 }
 
 
@@ -58,6 +57,7 @@ main a:hover {
 nav  li {
     font-size: 120%;
     margin-right: 40px;
+    color: black;
 }
 
 nav .active-a {
@@ -96,13 +96,13 @@ nav .active-a {
     font-size: 20px;
     width: 33%;
     min-width: 130px;
-    color: red;
     margin-left:auto;
     margin-right:auto;
+    text-decoration: underline;
   }
 
   #action-button:hover {
-        text-decoration: underline;
+        color:red;
 }
 
 
@@ -141,12 +141,12 @@ width: 60%
 }
 
 .event-link {
-        color: red;
-        text-decoration: none;
+        color: black;
+        text-decoration: underline;
 }
 
 .event-link:hover {
-    text-decoration: underline;
+    color: red;
 }
 
 
