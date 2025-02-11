@@ -6,7 +6,7 @@ The Stag Board Games Club website has two main purposes. It aims to attract new 
 The target audience of the website is both potential new members and current members. It will be useful for finding out information about club events, contacting club representatives and gaining an insight into what an experience would be like if attending a club event.
 
 ![screenshots of aspects of the site in different screensizes](assets/images/read-me/responsive-screenshot.png)
-
+---
 ## User Stories #
 
 ### Must Have ###
@@ -26,6 +26,7 @@ The target audience of the website is both potential new members and current mem
 
 All the Must Have and Should Have user stories were completed. The Could Have user story was completed but the method to do this was altered. Instead of a list of games played on an average night, a carousel of the voted for 'Games of the Year' was included instead.
 
+---
 ## Features ##
 The website includes a number of features to reach the aims of encourages new members and supporting current members.
 
@@ -84,14 +85,25 @@ The footer section contains links to social media, relevant for users looking to
 
 ![Screenshot of the footer](assets/images/read-me/footer.png)
 
+---
+
 ### Features Left to Implement ###
 The site could benefit from the following features in the future:
 -A page used for write-ups of events. This already exists in the club's social media and could easily be transfered to the page.
 -A 'members area' to allow current members to arrange meet-ups and discuss games played.
 
+---
+
 ## Testing ## 
 - The website has been tested in different browsers: Chrome, Edge, Safari.
 - The project is responsive and functions on all standard screen sizes, using Dev Tools device toolbar.
+
+![video of the site showing responsiveness at different screen sizes](assets/images/read-me/responsive-one.gif)
+
+![video of the site showing responsiveness at different screen sizes](assets/images/read-me/responsive-two.gif)
+
+![video of the site showing responsiveness at different screen sizes](assets/images/read-me/responsive-three.gif)
+
 - The text in all pages is readable and easy to understand. Lighthouse was used to check for accessibiliy, including colour clashes.
 - The form has been tested, requires entries in the 'First Name', 'Last Name' and 'Email' fields, and the 'Email' field will only accept a recognised email address. The submit button navigates to a confirmation page and the reset button works.
 - All external links work and are open in new tabs.
@@ -104,7 +116,7 @@ The site could benefit from the following features in the future:
 - HTML was validated using....
 - CSS was validated using...
 - Accessibility was checked using...
-
+---
 ## Deployment ##
 This section describes the process required to deploy this project using GitHub.
 - Go to the Settings tab of your GitHub repo.
@@ -120,7 +132,7 @@ Click View deployment to see the live site.
 
 The live site can be found here:
 - https://andrewpmilne.github.io/project-one-stag-games-club/
-
+---
 ## Credits ##
 The following sites were used to assist with the project:
 - https://getbootstrap.com/ (linked in the HTML code to aid design and responsiveness).
@@ -129,11 +141,11 @@ The following sites were used to assist with the project:
 - https://stackoverflow.com/ (for assistance with code-related queries).
 - https://www.w3.org/ (for guides and tutorials with specific code).
 - https://www.youtube.com/kevinpowell (for guidance with CSS, specifcally flexbox).
-
+---
 ## Media ##
 - Most images were taking with permission from David Fox, co-ordinator of the STAG board games club.
 - Images for the testimonials section were taking from https://www.pexels.com/
-
+---
 ## Thanks ## 
 I'd like to thank:
 - My mentor, Juliia Konovalova for Slack calls and lots of constructive criticism!
