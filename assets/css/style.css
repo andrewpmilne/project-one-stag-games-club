@@ -3,29 +3,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 
-p, button, a {
+p,
+button,
+a {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-    color:  #ffffff;
+    color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Averia Libre", serif;
     font-weight: 700;
     font-style: normal;
-    color: bisque !important; 
+    color: bisque !important;
 }
 
 body {
     background-color: #16254c;
 }
 
-.card, .card-body, .list-group-item {
+.card,
+.card-body,
+.list-group-item {
     background-color: bisque;
 }
 
-.card-title, .card-text, .list-group-item {
+.card-title,
+.card-text,
+.list-group-item {
     color: black !important;
 }
 
@@ -42,11 +53,11 @@ body {
 }
 
 main a {
-        text-decoration: underline;
+    text-decoration: underline;
 }
 
 main a:hover {
-    color:red;
+    color: red;
 }
 
 
@@ -54,7 +65,7 @@ main a:hover {
 
 
 /* navbar styles */
-nav  li {
+nav li {
     font-size: 120%;
     margin-right: 40px;
     color: black;
@@ -84,8 +95,8 @@ nav .active-a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  
+}
+
 #action-button {
     background-color: #ffe4c4;
     border: solid 2px;
@@ -96,15 +107,14 @@ nav .active-a {
     font-size: 20px;
     width: 33%;
     min-width: 130px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: underline;
-  }
-
-  #action-button:hover {
-        color:red;
 }
 
+#action-button:hover {
+    color: red;
+}
 
 .heading {
     text-decoration: underline;
@@ -117,32 +127,32 @@ main {
 
 img {
     max-width: 100%;
-    height:auto;
+    height: auto;
 }
+
 #intro {
     font-size: larger;
 }
 
 /* venue section */
 #map {
-        width: 100%;
-        height: auto;
+    width: 100%;
+    height: auto;
 }
 
 
 /* events section */
-
 .card {
     align-items: center;
 }
 
 .card-img-top {
-width: 60%
+    width: 60%
 }
 
 .event-link {
-        color: black;
-        text-decoration: underline;
+    color: black;
+    text-decoration: underline;
 }
 
 .event-link:hover {
@@ -156,13 +166,14 @@ width: 60%
 /* testimonials section */
 .test-images {
     border-radius: 50%;
-    
+
 }
 
 /* goty page */
 #carouselExample {
     margin: auto;
 }
+
 .carousel button {
     background-color: rgba(0, 0, 0, 0.9);
     width: 10%;
@@ -184,7 +195,7 @@ width: 60%
     padding-top: 25px;
 }
 
-#contact-form > p {
+#contact-form>p {
     color: black !important;
 }
 
@@ -203,6 +214,7 @@ form button {
 .check {
     font-size: larger;
 }
+
 /* gallery */
 #gallery-section img {
     width: 80%;
@@ -217,23 +229,23 @@ form button {
 
 /* footer styles */
 
-footer{
+footer {
     background-color: bisque
 }
 
 footer li {
-    list-style: none;   
+    list-style: none;
 }
 
 footer i {
     font-size: 29px;
     color: #16254c;
-    }
+}
 
 footer i:hover {
     color: red;
 }
-    
+
 
 footer img {
     margin: 7px;
@@ -245,34 +257,36 @@ footer img {
 
 /* media query l and larger */
 
-@media screen and (min-width:993px){
+@media screen and (min-width:993px) {
+
     /* Cards general */
     .card {
         width: 18rem;
-    }    
+    }
 
     #testimonials .card {
-        width:20rem;
+        width: 20rem;
     }
-    
+
     /* events section */
     #wednesday-card {
         width: 40rem !important;
     }
+
     #wednesday-card img {
         max-width: 36%;
     }
 
-    #events  .card {
+    #events .card {
         min-height: 792px;
     }
-    
+
     .card-img-top {
         max-height: 172px;
     }
-    
+
 }
-    
+
 
 /* media query xl and larger */
 
@@ -280,45 +294,51 @@ footer img {
     #hero-container {
         position: relative;
     }
+
     #hero-container img {
-        width:100%;
+        width: 100%;
         height: auto;
     }
+
     #hero-container .btn {
         position: absolute;
         top: 45%;
         left: 45%;
         font-size: 24px;
         width: 17%;
-      }
+    }
 
     /* venue sections */
     #map {
         height: 60%;
     }
-    
+
     /* testimonials */
     #testimonials .card {
-        width:12rem;
+        width: 12rem;
     }
 
     #test-img {
-        order:3
-    }
-    #test-one{
-        order:1
-    }
-    #test-two {
-        order:2
-    }
-    #test-three{
-        order:4
-    }
-    #test-four{
-        order:5
+        order: 3
     }
 
-    
+    #test-one {
+        order: 1
+    }
+
+    #test-two {
+        order: 2
+    }
+
+    #test-three {
+        order: 4
+    }
+
+    #test-four {
+        order: 5
+    }
+
+
 
     /* contact us */
 
@@ -328,9 +348,11 @@ footer img {
         align-items: center;
         position: relative;
     }
+
     #form-image {
         position: relative;
     }
+
     #contact-form {
         position: absolute;
         top: 50%;
@@ -346,9 +368,10 @@ footer img {
 @media screen and (max-width:1200px) {
     #contact-form {
         background-color: bisque;
-        }    
-    
-    #contact-form h2, h6 {
+    }
+
+    #contact-form h2,
+    h6 {
         color: black !important;
     }
 }
