@@ -1,11 +1,30 @@
 # Stag Board Games Club Website #
 ![Stag Logo](assets/images/logo-small.png)
 
-The Stag Board Games Club website has two main purposes. It aims to attract new members to the club by providing clear and factual information about club events, portray the welcoming and inculsive atmosphere of the club and allow for an easy method to contact a club representative with any questions. It also aims to cater for current members who want to see up-to-date photos from recent events, find out more information about future events and research popular games.
+The Stag Board Games Club website has two main purposes. It aims to attract new members to the club by providing clear and factual information about club events, portray the welcoming and inclusive atmosphere of the club and allow for an easy method to contact a club representative with any questions. It also aims to cater for current members who want to see up-to-date photos from recent events, find out more information about future events and research popular games.
 
 The target audience of the website is both potential new members and current members. It will be useful for finding out information about club events, contacting club representatives and gaining an insight into what an experience would be like if attending a club event.
 
 ![screenshots of aspects of the site in different screensizes](assets/images/read-me/responsive-screenshot.png)
+
+## User Stories #
+
+### Must Have ###
+![Screenshot of github user story](assets/images/read-me/must-have-one.png)
+
+![Screenshot of github user story](assets/images/read-me/must-have-two.png)
+
+![Screenshot of github user story](assets/images/read-me/must-have-three.png)
+
+### Should Have ###
+![Screenshot of github user story](assets/images/read-me/should-have-one.png)
+
+![Screenshot of github user story](assets/images/read-me/should-have-two.png)
+
+### Could Have ### 
+![Screenshot of github user story](assets/images/read-me/could-have-one.png)
+
+All the Must Have and Should Have user stories were completed. The Could Have user story was completed but the method to do this was altered. Instead of a list of games played on an average night, a carousel of the voted for 'Games of the Year' was included instead.
 
 ## Features ##
 The website includes a number of features to reach the aims of encourages new members and supporting current members.
@@ -16,12 +35,12 @@ The navbar includes a number of features to aid user experience:
 - Clear naming of different pages within the site to allow of ease of use between pages.
 - A logo to help brand the club and navigate to the homepage.
 - Underlined text to indicate the page a user is currently on.
-- A change in text colour when a mouse if hovered over a link to explain clearly what will happen when the link is clicked.
+- A change in text colour when a mouse if hovered over a link to visually indivate what will happen when the link is clicked.
 ![The desktop navbar](assets/images/read-me/navbar-full.png)
 ![The mobile or small screen navbar](assets/images/read-me/navbar-small.png)
 
 ### Introduction and 'Hero' image ### 
-The first feature of the main section is a large image of a number of people at a club night and a button as a 'call to action' for new members to find out more. This busy scene shows the club in a positive light for any users one their first viewing of the website. The button use a media query to position in front of the image in desktops to save space and ensure it can be seen in a prominent position, but sits beneath the images in smaller screens to avoid blocking the image.
+The first feature of the main section is a large image of a number of people at a club night and a button as a 'call to action' for new members to find out more. This busy scene shows the club in a positive light for any users one their first viewing of the website. The button uses a media query to position in front of the image in desktops to save space and ensure it can be seen in a prominent position, but sits beneath the images in smaller screens to avoid blocking the image.
 ![image and button on desktop screens](assets/images/read-me/action-button-large.png)
 ![image and button on smaller screens](assets/images/read-me/action-button-small.png)
 
