@@ -20,10 +20,10 @@
 
 <body class="d-flex flex-column min-vh-100">
   <header>
-    <!-- navbar - -->
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.html" aria-label="Go to the Homepage">
           <img src="assets/images/logo-x-small.png" alt="STAG logo" class="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -33,16 +33,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" aria-label="Go to the homepage" href="index.html">Home
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery.html" aria-label="Go to the gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="games-of-the-year.html">Games of the Year</a>
+              <a class="nav-link" href="games-of-the-year.html" aria-label="Go to the Game of the Year">Games of the
+                Year</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active-a" aria-current="page" href="contact.html">Contact Us</a>
+              <a class="nav-link active-a" href="contact.html" aria-label="Go to the contact us page">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -102,7 +104,7 @@
             </label>
             <textarea id="questions" class="form-control mb-2" name="questions" rows="4" cols="35"></textarea>
           </div>
-          <!-- sumbit and reset -->
+          <!-- submit and reset -->
           <div class="col col-12">
             <button type="submit" value="Submit">Submit</button>
             <button type="reset" value="Reset" id="reset">Reset</button>
