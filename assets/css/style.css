@@ -204,7 +204,19 @@ img {
 }
 
 form button {
-    color: black;
+    color: green;
+}
+
+#reset {
+    color: blue;
+}
+
+form button:hover {
+    color: red;
+}
+
+#reset:hover {
+    color: red
 }
 
 .form-control {
