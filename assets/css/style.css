@@ -80,7 +80,6 @@ nav .active-a {
 
 /* body styles */
 /* Hero section */
-
 #action-button {
     text-align: center;
     text-decoration: none;
@@ -245,7 +244,6 @@ footer img {
 
 /* media queries */
 /* media query l and larger */
-
 @media screen and (min-width:993px) {
 
     /* Cards general */
@@ -276,7 +274,6 @@ footer img {
 }
 
 /* media query xl and larger */
-
 @media screen and (min-width:1200px) {
     #hero-container {
         position: relative;
@@ -349,6 +346,7 @@ footer img {
     }
 }
 
+/* media query smaller than xl */
 @media screen and (max-width:1200px) {
     #contact-form {
         background-color: bisque;
