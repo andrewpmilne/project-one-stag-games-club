@@ -1,7 +1,5 @@
 /* General Styles */
-
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
 
 p,
 button,
@@ -60,10 +58,6 @@ main a:hover {
     color: red;
 }
 
-
-
-
-
 /* navbar styles */
 nav li {
     font-size: 120%;
@@ -83,10 +77,6 @@ nav .active-a {
     color: red;
     text-decoration: underline;
 }
-
-
-
-
 
 /* body styles */
 /* Hero section */
@@ -140,7 +130,6 @@ img {
     height: auto;
 }
 
-
 /* events section */
 .card {
     align-items: center;
@@ -159,14 +148,9 @@ img {
     color: red;
 }
 
-
-
-
-
 /* testimonials section */
 .test-images {
     border-radius: 50%;
-
 }
 
 /* goty page */
@@ -236,11 +220,7 @@ form button:hover {
     box-shadow: 10px 10px rgb(64, 87, 95);
 }
 
-
-
-
 /* footer styles */
-
 footer {
     background-color: bisque
 }
@@ -263,10 +243,7 @@ footer img {
     margin: 7px;
 }
 
-
 /* media queries */
-
-
 /* media query l and larger */
 
 @media screen and (min-width:993px) {
@@ -296,9 +273,7 @@ footer img {
     .card-img-top {
         max-height: 172px;
     }
-
 }
-
 
 /* media query xl and larger */
 
@@ -350,10 +325,7 @@ footer img {
         order: 5
     }
 
-
-
     /* contact us */
-
     #form {
         display: flex;
         justify-content: center;
