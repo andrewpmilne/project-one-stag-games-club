@@ -133,7 +133,18 @@ The site could benefit from the following features in the future:
 - Initially, a hover psuedo classed was used in the gallery to increase the size of images. However, this created issues with navigating the site and was removed. 
 
 ### Validation ###
-- HTML was validated using....
+- HTML was validated using the official W3C validator. All pages passed with no errors:
+-index
+![index page validation](documents/html-check-index.png)
+-contact us
+![contact us page validation](documents/html-check-form.png)
+-for submitted
+![form submitted page validation](documents/html-check-form-submitted.png)
+-gallery
+![gallery page validation](documents/html-check-gallery.png)
+-game of the year
+![game of the year page validation](documents/html-check-goty.png)
+
 - CSS was validated using...
 - Accessibility was checked using...
 ---
