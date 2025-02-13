@@ -322,6 +322,10 @@ footer img {
         order: 5
     }
 
+    .test-heading {
+        color: black !important;
+    }
+
     /* contact us */
     #form {
         display: flex;
