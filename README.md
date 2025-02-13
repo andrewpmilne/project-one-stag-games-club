@@ -97,7 +97,23 @@ The site could benefit from the following features in the future:
 ---
 
 ## Testing ## 
-- The website has been tested in different browsers: Chrome, Edge, Safari.
+- The website has been tested in different browsers: 
+
+  - Chrome
+
+  ![Chrome testing](documents/chrome.png)
+  ![Chrome testing](documents/chrome-two.png)
+
+  - Edge
+
+  ![Edge testing](documents/edge.png)
+  ![Edge testing](documents/edge-two.png)
+
+  - Safari
+
+  ![Safari testing](documents/safari.png)
+  ![Safari testing](documents/safari-three.png)
+
 - The project is responsive and functions on all standard screen sizes, using Dev Tools device toolbar.
 
 ![video of the site showing responsiveness at different screen sizes](documents/responsive-one.gif)
@@ -112,7 +128,9 @@ The site could benefit from the following features in the future:
 - Internal links and buttons all work.
 
 ### Bugs ### 
-- TBC
+- Navigation proved difficult in earlier deployments due to inconsistent styling of the buttons and links. This was corrected in the final version.
+- Accessibility was an issue in the initial colour choices on the form, but this was corrected.
+- Initially, a hover psuedo classed was used in the gallery to increase the size of images. However, this created issues with navigating the site and was removed. 
 
 ### Validation ###
 - HTML was validated using....
@@ -135,6 +153,18 @@ Click View deployment to see the live site.
 The live site can be found here:
 - https://andrewpmilne.github.io/project-one-stag-games-club/
 ---
+
+### Technologies Used ###
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used in media queries and to style, including to position the form and the action button in front of images.
+- [Bootstrap](https://getbootstrap.com/) - was used to style elements throughout the project, including ensuring responsiveness. 
+- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
+- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website and log notes in the design process.
+
+
 ## Credits ##
 The following sites were used to assist with the project:
 - https://getbootstrap.com/ (linked in the HTML code to aid design and responsiveness).
@@ -144,8 +174,8 @@ The following sites were used to assist with the project:
 - https://www.w3.org/ (for guides and tutorials with specific code).
 - https://www.youtube.com/kevinpowell (for guidance with CSS, specifcally flexbox).
 ---
-## Media ##
-- Most images were taking with permission from David Fox, co-ordinator of the STAG board games club.
+### Media ###
+- Most images were used with permission from David Fox, co-ordinator of the STAG board games club.
 - Images for the testimonials section were taking from https://www.pexels.com/
 ---
 ## Thanks ## 
