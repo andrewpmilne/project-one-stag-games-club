@@ -236,3 +236,4 @@ I'd like to thank:
 - My mentor, Juliia Konovalova for Slack calls and lots of constructive criticism!
 - The Code Institute tutors, Rebecca and Oisin, for helping to solve a few technical issues.
 - David Fox, co-ordinator of the STAG board games club, for moral support and providing images and logos. 
+- My friend, John Holland, for moral support and laughs!
