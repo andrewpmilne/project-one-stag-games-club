@@ -39,7 +39,10 @@ The navbar includes a number of features to aid user experience:
 - A logo to help brand the club and navigate to the homepage.
 - Underlined text to indicate the page a user is currently on.
 - A change in text colour when a mouse if hovered over a link to visually indivate what will happen when the link is clicked.
+  - Desktop Navbar
 ![The desktop navbar](documents/navbar-full.png)
+
+  - Mobile or small creeen navbar
 ![The mobile or small screen navbar](documents/navbar-small.png)
 
 ### Introduction and 'Hero' image ### 
@@ -91,10 +94,21 @@ The footer section contains links to social media, relevant for users looking to
 
 ### Features Left to Implement ###
 The site could benefit from the following features in the future:
+
 -A page used for write-ups of events. This already exists in the club's social media and could easily be transfered to the page.
+
 -A 'members area' to allow current members to arrange meet-ups and discuss games played.
 
 ---
+
+## Design ##
+- The font 'merriweather' was used for all anchors, paragraphs and buttons. This was an easy to read font that also has a warm, inviting feeling. This is in line with the site's goal of attracting new members.
+- The font Averia Libre was used for headings. This font is also easy to read, but has a slightly more quirky appearance. This is in keeping with the nature of a board games club and encapsulates the atmosphere the club is trying to portray.
+- It was requested to use the colour french navy by a represented of the club. It is a deep blue that is calming in nature. It is also already the colour of the STAG logo so was an obvious choice to use. 
+- To compliment this, bisque was used for other features on the webpage (eg. navbar, footer, event and testimonial cards). This created a clear contrast and made the website easy to navigate. It was used consistently throughout the site to avoid confusion. 
+- White was chosen for the text, which stood out clearly against the french navy. If bisque was the background (eg an event card) then black was used for text.
+- Headings were written in bisque to make them stand out from paragraphs and to remain consistent with the colour choices throughout the website.
+-Any links (both internal and external) turn to red when a cursor hovers over them. This made navigation of the website clear as red is a very distinct colour. 
 
 ## Testing ## 
 - The website has been tested in different browsers: 
@@ -134,6 +148,7 @@ The site could benefit from the following features in the future:
 
 ### Validation ###
 - HTML was validated using the official W3C validator. All pages passed with no errors:
+
 -index
 ![index page validation](documents/html-check-index.png)
 -contact us
@@ -145,8 +160,35 @@ The site could benefit from the following features in the future:
 -game of the year
 ![game of the year page validation](documents/html-check-goty.png)
 
-- CSS was validated using...
-- Accessibility was checked using...
+- CSS was validated using the W3C jigsaw validator and passed with no errors.
+
+![CSS validation screenshot](documents/css-validation.png)
+
+- Accessibility was checked using Lighthouse on all pages:
+
+- Index
+
+![Screenshot of the index page Lighthouse scores](documents/lighthouse-index.png)
+
+- Gallery
+
+![Screenshot of the Gallery page Lighthouse scores](documents/lighthouse-gallery.png)
+
+- Games of the Year
+
+![Screenshot of the Game of the Year page Lighthouse scores](documents/lighthouse-goty.png)
+
+- Contact Us
+
+![Screenshot of the Contact Us page Lighthouse scores](documents/lighthouse-form.png)
+
+- Form complete
+
+![Screenshot of the Form Complete page Lighthouse scores](documents/lighthouse-form-complete.png)
+
+It was particularly pleasing that all pages had an accessibility score of 100. Although the performance score was low for the index page, this is because of the prevalent use of Bootstrap for responsiveness and also the high-quality images. As both of these features signifcantly enhance the website overall it was decided not to change them.
+
+
 ---
 ## Deployment ##
 This section describes the process required to deploy this project using GitHub.
@@ -184,10 +226,10 @@ The following sites were used to assist with the project:
 - https://stackoverflow.com/ (for assistance with code-related queries).
 - https://www.w3.org/ (for guides and tutorials with specific code).
 - https://www.youtube.com/kevinpowell (for guidance with CSS, specifcally flexbox).
----
-### Media ###
-- Most images were used with permission from David Fox, co-ordinator of the STAG board games club.
-- Images for the testimonials section were taking from https://www.pexels.com/
+
+- Media
+  - Most images were used with permission from David Fox, co-ordinator of the STAG board games club.
+  - Images for the testimonials section were taking from https://www.pexels.com/
 ---
 ## Thanks ## 
 I'd like to thank:
